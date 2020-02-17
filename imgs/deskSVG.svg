@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 767 267" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-216.568,-535.033)">
+        <g id="Work-Station" serif:id="Work Station" transform="matrix(1,0,0,1,-36.9526,37.9791)">
+            <g id="Desk-Essentials" serif:id="Desk Essentials">
+                <g id="Monitor-Stand" serif:id="Monitor Stand" transform="matrix(0.533333,0,0,0.439384,314.178,396.224)">
+                    <rect x="631.006" y="544.157" width="24.635" height="162.592" style="fill:none;stroke:rgb(245,55,55);stroke-width:2.05px;"/>
+                </g>
+                <g id="Desk" transform="matrix(1,0,0,0.443038,-80.834,544.335)">
+                    <rect x="334.854" y="392.186" width="765.998" height="101.363" style="fill:none;stroke:rgb(245,55,55);stroke-width:1.29px;"/>
+                </g>
+                <rect id="Keyboard" x="523.47" y="706.885" width="253.315" height="10.511" style="fill:none;stroke:rgb(245,55,55);stroke-width:1px;"/>
+                <g id="Mouse" transform="matrix(0.614286,0,0,1,308.739,0)">
+                    <path d="M834.759,717.002C836.373,715.604 837.223,714.018 837.223,712.403C837.223,707.327 828.981,703.206 818.829,703.206C808.677,703.206 800.435,707.327 800.435,712.403C800.435,714.018 801.285,715.604 802.899,717.002L834.759,717.002Z" style="fill:none;stroke:rgb(245,55,55);stroke-width:1.21px;"/>
+                </g>
+            </g>
+            <g id="Plant">
+                <rect x="302.031" y="685.616" width="35.788" height="32.021" style="fill:none;stroke:rgb(245,55,55);stroke-width:1px;"/>
+                <path d="M320.598,663.82L323.22,675.122L328.275,671.629L327.464,679.439L335.952,679.439L329.085,686.423C329.085,686.423 329.356,686.813 329.756,687.387C330.493,688.444 330.659,689.797 330.201,691.002C329.743,692.206 328.719,693.107 327.466,693.407C327.465,693.408 327.464,693.408 327.464,693.408C327.464,693.408 327.628,694.114 327.874,695.173C328.153,696.376 327.599,697.617 326.517,698.212C325.435,698.806 324.09,698.609 323.224,697.728C323.222,697.726 323.22,697.725 323.22,697.725C323.22,697.725 323.22,697.726 323.219,697.729C322.809,698.821 321.764,699.545 320.598,699.545C319.431,699.545 318.386,698.821 317.976,697.729C317.975,697.726 317.975,697.725 317.975,697.725C317.975,697.725 317.745,697.958 317.37,698.34C316.58,699.143 315.353,699.323 314.366,698.781C313.378,698.239 312.872,697.106 313.127,696.009C313.477,694.502 313.731,693.408 313.731,693.408C313.731,693.408 313.73,693.408 313.729,693.407C312.476,693.107 311.452,692.206 310.994,691.002C310.536,689.797 310.703,688.444 311.439,687.387C311.839,686.813 312.11,686.423 312.11,686.423L305.243,679.439L313.731,679.439L312.92,671.629L317.975,675.122L320.598,663.82Z" style="fill:none;stroke:url(#_Linear1);stroke-width:1px;"/>
+            </g>
+            <g id="Left-Speaker" serif:id="Left Speaker" transform="matrix(1,0,0,1,0,-0.661294)">
+                <g transform="matrix(1.44018,0,0,1.6348,-191.715,-432.931)">
+                    <ellipse cx="430.762" cy="685.957" rx="8.679" ry="7.646" style="fill:none;stroke:rgb(245,55,55);stroke-width:0.65px;"/>
+                </g>
+                <g transform="matrix(1.04942,0,0,0.93658,-21.3208,41.4827)">
+                    <ellipse cx="428.764" cy="690.917" rx="5.717" ry="6.406" style="fill:none;stroke:rgb(245,55,55);stroke-width:1.01px;"/>
+                </g>
+                <g id="Left-Speaker1" serif:id="Left Speaker" transform="matrix(1,0,0,1,47.2994,0.656937)">
+                    <path d="M402.594,673.644C402.594,667.915 397.943,663.265 392.214,663.265L371.455,663.265C365.726,663.265 361.075,667.915 361.075,673.644L361.075,707.542C361.075,713.271 365.726,717.922 371.455,717.922L392.214,717.922C397.943,717.922 402.594,713.271 402.594,707.542L402.594,673.644Z" style="fill:none;stroke:rgb(245,55,55);stroke-width:1px;"/>
+                </g>
+            </g>
+            <g id="Right-Speaker" serif:id="Right Speaker" transform="matrix(1,0,0,1,475.622,-1.0511)">
+                <g transform="matrix(1.44018,0,0,1.6348,-191.715,-432.931)">
+                    <ellipse cx="430.762" cy="685.957" rx="8.679" ry="7.646" style="fill:none;stroke:rgb(245,55,55);stroke-width:0.65px;"/>
+                </g>
+                <g transform="matrix(1.04942,0,0,0.93658,-21.3208,41.4827)">
+                    <ellipse cx="428.764" cy="690.917" rx="5.717" ry="6.406" style="fill:none;stroke:rgb(245,55,55);stroke-width:1.01px;"/>
+                </g>
+                <g id="Left-Speaker2" serif:id="Left Speaker" transform="matrix(1,0,0,1,47.2994,0.656937)">
+                    <path d="M402.594,673.644C402.594,667.915 397.943,663.265 392.214,663.265L371.455,663.265C365.726,663.265 361.075,667.915 361.075,673.644L361.075,707.542C361.075,713.271 365.726,717.922 371.455,717.922L392.214,717.922C397.943,717.922 402.594,713.271 402.594,707.542L402.594,673.644Z" style="fill:none;stroke:rgb(245,55,55);stroke-width:1px;"/>
+                </g>
+            </g>
+            <g id="Coffee-Cup" serif:id="Coffee Cup" transform="matrix(1.41901,0,0,1.49042,-419.354,-351.926)">
+                <g transform="matrix(0.839506,0,0,1.05385,156.504,-37.6238)">
+                    <path d="M997.459,702.96C997.459,700.624 994.958,698.728 991.879,698.728L980.72,698.728C977.64,698.728 975.14,700.624 975.14,702.96L975.14,712.406C975.14,714.742 977.64,716.638 980.72,716.638L991.879,716.638C994.958,716.638 997.459,714.742 997.459,712.406L997.459,702.96Z" style="fill:none;stroke:rgb(245,55,55);stroke-width:0.72px;"/>
+                </g>
+                <g transform="matrix(0.957165,0,0,1.23348,41.418,-167.806)">
+                    <path d="M994.51,705.726C998.834,705.726 1002.35,707.925 1002.35,710.634C1002.35,713.343 998.834,715.542 994.51,715.542C990.185,715.542 986.674,713.343 986.674,710.634C986.674,707.925 990.185,705.726 994.51,705.726ZM994.51,707.447C997.318,707.447 999.599,708.875 999.599,710.634C999.599,712.394 997.318,713.822 994.51,713.822C991.701,713.822 989.42,712.394 989.42,710.634C989.42,708.875 991.701,707.447 994.51,707.447Z" style="fill:none;stroke:url(#_Linear2);stroke-width:0.62px;"/>
+                </g>
+            </g>
+            <g id="Monitors" transform="matrix(1,0,0,1,-0.656936,45.3286)">
+                <g id="Left-Monitor" serif:id="Left Monitor" transform="matrix(1,0,0,1,-9.03287,47.9229)">
+                    <rect x="398.615" y="404.558" width="268.523" height="137.135" style="fill:none;stroke:rgb(245,55,55);stroke-width:1px;"/>
+                </g>
+                <g id="Right-Monitor" serif:id="Right Monitor" transform="matrix(1,0,0,1,259.625,47.6678)">
+                    <rect x="398.615" y="404.558" width="268.523" height="137.135" style="fill:none;stroke:rgb(245,55,55);stroke-width:1px;"/>
+                </g>
+                <g id="Left-Screen" serif:id="Left Screen" transform="matrix(1.03768,0,0,1.0806,-19.6227,-93.3294)">
+                    <rect x="401.565" y="513.641" width="243.723" height="111.022" style="fill:none;stroke:rgb(245,55,55);stroke-width:0.94px;"/>
+                </g>
+                <g id="Right-Screen" serif:id="Right Screen" transform="matrix(1.04043,0,0,1.08284,248.509,-95.105)">
+                    <rect x="401.565" y="513.641" width="243.723" height="111.022" style="fill:none;stroke:rgb(245,55,55);stroke-width:0.94px;"/>
+                </g>
+            </g>
+            <g id="Browser" transform="matrix(0.759159,0,0,1,364.689,-0.420439)">
+                <g transform="matrix(1.18923,0,0,0.891925,-79.8831,51.5236)">
+                    <ellipse cx="405.23" cy="515.95" rx="1.261" ry="1.682" style="fill:rgb(245,55,55);"/>
+                </g>
+                <g transform="matrix(1.18923,0,0,0.891925,-71.5067,51.7)">
+                    <ellipse cx="405.23" cy="515.95" rx="1.261" ry="1.682" style="fill:rgb(245,55,55);"/>
+                </g>
+                <g transform="matrix(1.18923,0,0,0.891925,-75.9153,51.5236)">
+                    <ellipse cx="405.23" cy="515.95" rx="1.261" ry="1.682" style="fill:rgb(245,55,55);"/>
+                </g>
+                <rect x="398.722" y="509.397" width="247.891" height="115.032" style="fill:none;stroke:rgb(245,55,55);stroke-width:1.13px;"/>
+                <g id="On-Screen-Left" serif:id="On Screen Left" transform="matrix(1.02191,0,0,1.21779,-20.184,-119.152)">
+                    <rect x="429.889" y="532.653" width="37.198" height="1.894" style="fill:rgb(245,55,55);"/>
+                    <rect x="472.942" y="532.997" width="14.466" height="1.55" style="fill:rgb(245,55,55);"/>
+                    <rect x="496.191" y="531.792" width="43.914" height="2.755" style="fill:rgb(245,55,55);"/>
+                    <rect x="553.365" y="532.136" width="64.414" height="2.755" style="fill:rgb(245,55,55);"/>
+                    <rect x="430.585" y="544.535" width="28.243" height="2.583" style="fill:rgb(245,55,55);"/>
+                    <rect x="465.027" y="544.708" width="38.231" height="1.55" style="fill:rgb(245,55,55);"/>
+                    <rect x="512.213" y="542.469" width="47.703" height="2.928" style="fill:rgb(245,55,55);"/>
+                    <rect x="567.838" y="543.502" width="29.965" height="1.205" style="fill:rgb(245,55,55);"/>
+                    <rect x="431.446" y="559.862" width="58.38" height="1.205" style="fill:rgb(245,55,55);"/>
+                    <rect x="500.158" y="560.034" width="59.413" height="2.239" style="fill:rgb(245,55,55);"/>
+                    <rect x="567.665" y="559.346" width="27.209" height="1.55" style="fill:rgb(245,55,55);"/>
+                    <rect x="602.28" y="559.001" width="16.34" height="1.894" style="fill:rgb(245,55,55);"/>
+                    <rect x="430.221" y="573.123" width="65.268" height="3.789" style="fill:rgb(245,55,55);"/>
+                    <rect x="505.649" y="572.778" width="63.891" height="2.928" style="fill:rgb(245,55,55);"/>
+                    <rect x="580.045" y="573.984" width="24.971" height="2.067" style="fill:rgb(245,55,55);"/>
+                    <rect x="432.632" y="588.622" width="43.914" height="2.928" style="fill:rgb(245,55,55);"/>
+                    <rect x="488.773" y="589.483" width="33.409" height="2.411" style="fill:rgb(245,55,55);"/>
+                    <rect x="537.853" y="586.899" width="48.736" height="3.272" style="fill:rgb(245,55,55);"/>
+                    <rect x="600.538" y="586.038" width="28.415" height="2.239" style="fill:rgb(245,55,55);"/>
+                </g>
+            </g>
+            <g id="Browser1" serif:id="Browser">
+                <g transform="matrix(1.18923,0,0,0.891925,-79.8831,51.5236)">
+                    <ellipse cx="405.23" cy="515.95" rx="1.261" ry="1.682" style="fill:rgb(245,55,55);"/>
+                </g>
+                <g transform="matrix(1.18923,0,0,0.891925,-71.5067,51.7)">
+                    <ellipse cx="405.23" cy="515.95" rx="1.261" ry="1.682" style="fill:rgb(245,55,55);"/>
+                </g>
+                <g transform="matrix(1.18923,0,0,0.891925,-75.9153,51.5236)">
+                    <ellipse cx="405.23" cy="515.95" rx="1.261" ry="1.682" style="fill:rgb(245,55,55);"/>
+                </g>
+                <rect x="398.722" y="509.397" width="247.891" height="115.032" style="fill:none;stroke:rgb(245,55,55);stroke-width:1px;"/>
+                <g id="On-Screen-Left1" serif:id="On Screen Left" transform="matrix(1.02191,0,0,1.21779,-20.184,-119.152)">
+                    <rect x="429.889" y="532.653" width="37.198" height="1.894" style="fill:rgb(245,55,55);"/>
+                    <rect x="472.942" y="532.997" width="14.466" height="1.55" style="fill:rgb(245,55,55);"/>
+                    <rect x="496.191" y="531.792" width="43.914" height="2.755" style="fill:rgb(245,55,55);"/>
+                    <rect x="553.365" y="532.136" width="64.414" height="2.755" style="fill:rgb(245,55,55);"/>
+                    <rect x="430.585" y="544.535" width="28.243" height="2.583" style="fill:rgb(245,55,55);"/>
+                    <rect x="465.027" y="544.708" width="38.231" height="1.55" style="fill:rgb(245,55,55);"/>
+                    <rect x="512.213" y="542.469" width="47.703" height="2.928" style="fill:rgb(245,55,55);"/>
+                    <rect x="567.838" y="543.502" width="29.965" height="1.205" style="fill:rgb(245,55,55);"/>
+                    <rect x="431.446" y="559.862" width="58.38" height="1.205" style="fill:rgb(245,55,55);"/>
+                    <rect x="500.158" y="560.034" width="59.413" height="2.239" style="fill:rgb(245,55,55);"/>
+                    <rect x="567.665" y="559.346" width="27.209" height="1.55" style="fill:rgb(245,55,55);"/>
+                    <rect x="602.28" y="559.001" width="16.34" height="1.894" style="fill:rgb(245,55,55);"/>
+                    <rect x="430.221" y="573.123" width="65.268" height="3.789" style="fill:rgb(245,55,55);"/>
+                    <rect x="505.649" y="572.778" width="63.891" height="2.928" style="fill:rgb(245,55,55);"/>
+                    <rect x="580.045" y="573.984" width="24.971" height="2.067" style="fill:rgb(245,55,55);"/>
+                    <rect x="432.632" y="588.622" width="43.914" height="2.928" style="fill:rgb(245,55,55);"/>
+                    <rect x="488.773" y="589.483" width="33.409" height="2.411" style="fill:rgb(245,55,55);"/>
+                    <rect x="537.853" y="586.899" width="48.736" height="3.272" style="fill:rgb(245,55,55);"/>
+                    <rect x="600.538" y="586.038" width="28.415" height="2.239" style="fill:rgb(245,55,55);"/>
+                </g>
+            </g>
+            <g id="Phone">
+                <g transform="matrix(0.895349,0,0,1,103.031,-7.14746)">
+                    <path d="M892.111,550.034C892.111,545.567 888.06,541.941 883.071,541.941L864.992,541.941C860.003,541.941 855.953,545.567 855.953,550.034L855.953,597.754C855.953,602.221 860.003,605.847 864.992,605.847L883.071,605.847C888.06,605.847 892.111,602.221 892.111,597.754L892.111,550.034Z" style="fill:none;stroke:rgb(245,55,55);stroke-width:1.05px;"/>
+                </g>
+                <g transform="matrix(1.00898,0,0,1,-8.27035,-2.11614)">
+                    <rect x="870.101" y="543.443" width="31.301" height="1.234" style="fill:rgb(245,55,55);"/>
+                </g>
+                <g transform="matrix(1.00898,0,0,1,-8.27035,48.583)">
+                    <rect x="870.101" y="543.443" width="31.301" height="1.234" style="fill:rgb(245,55,55);"/>
+                </g>
+                <g transform="matrix(0.642782,0,0,0.357143,316.706,344.154)">
+                    <rect x="870.101" y="543.443" width="31.301" height="1.234" style="fill:rgb(245,55,55);"/>
+                </g>
+                <g transform="matrix(1.03693,0,0,1.55539,-29.9392,-330.251)">
+                    <ellipse cx="883.039" cy="595.589" rx="1.447" ry="0.964" style="fill:rgb(245,55,55);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,5.64854,2.89316)">
+                    <ellipse cx="880.49" cy="551.159" rx="4.684" ry="4.891" style="fill:none;stroke:rgb(245,55,55);stroke-width:1px;"/>
+                </g>
+                <g transform="matrix(1,0,0,0.923077,2.42474,43.4407)">
+                    <rect x="873.464" y="564.729" width="21.079" height="1.791" style="fill:rgb(245,55,55);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,3.08603,-0.110215)">
+                    <rect x="873.326" y="570.377" width="19.425" height="1.102" style="fill:rgb(245,55,55);"/>
+                </g>
+                <g transform="matrix(1,0,0,0.733333,2.72783,152.725)">
+                    <rect x="874.428" y="575.613" width="18.461" height="2.067" style="fill:rgb(245,55,55);"/>
+                </g>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.07659e-18,0.11557,-0.11557,7.07659e-18,311.588,685.788)"><stop offset="0" style="stop-color:rgb(245,55,55);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(245,55,55);stop-opacity:0"/></linearGradient>
+        <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-0.221084,2.10099e-17,-2.7075e-17,-0.171558,994.9,705.857)"><stop offset="0" style="stop-color:rgb(245,55,55);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(245,55,55);stop-opacity:0"/></linearGradient>
+    </defs>
+</svg>
