@@ -20,7 +20,7 @@
           <a href="#" class="navbar-item logo">
             <img
               class="logo-image"
-              src="./imgs/Logo.svg"
+              src="./imgs/svgs//Logo.svg"
               alt="O for Oscar logo"
             />
             <span class="name">OSJ</span>
@@ -41,10 +41,10 @@
           <div class="navbar-end">
             <div class="navbar-item">
               <div class="buttons">
-                <a class="button hire-me">
+                <a href="mailto:ojsanch@gmail.com?subject=Mail From Made By OSJ" class="button hire-me" target="_blank">
                   <strong>Hire Me</strong>
                 </a>
-                <a class="button is-light">
+                <a href='#work' class="button is-light">
                   Featured Work
                 </a>
               </div>
@@ -56,8 +56,7 @@
 
     <div class="container">
       <section class="section">
-        <h1 class="title">
-          I build amazing experiences
+        <h1 class="title">I build amazing experiences
         </h1>
         <h3 class="subtitle">Front End Developer from Chicago, IL.</h3>
       </section>
@@ -65,7 +64,7 @@
       <!-- SVG -->
       <object
         id="svg-me"
-        data="imgs/me.svg"
+        data="./imgs/svgs/me.svg"
         type="image/svg+xml"
         height="500"
         width="500"
@@ -75,7 +74,7 @@
     <div class="container-two">
       <object
         id="svg-desk"
-        data="./imgs/deskSVG.svg"
+        data="./imgs/svgs/deskSVG.svg"
         type="image/svg+xml"
         height="500"
         width="800"
@@ -108,7 +107,7 @@
               <li>Affinity Photo</li>
             </ul>
           </p>
-          <a class='link' href="#">View My Design Process</a>
+          <a class='link' href="https://www.figma.com/file/mSsaNcqZ61NRpEsvn6ODQI/Portfolio?node-id=0%3A1" target="_blank">View My Design Process</a>
         </div>
       </div>
       <!-- Card Two -->
@@ -127,7 +126,7 @@
               <li>Python</li>
             </ul>
           </p>
-          <a class='link' href="#">View My Projects</a>
+          <a class='link' href="https://www.github.com/osj007" target='_blank'>View My Projects</a>
         </div>
       </div>
       <!-- Card Three -->
@@ -145,17 +144,51 @@
               <li>Photography</li>
             </ul>
           </p>
-          <a class="link" href="#">View My SVGs</a >
+          <a class="link" href="https://www.figma.com/file/7CLih7w99aoOdKgmtBLAVW/My-SVG?node-id=0%3A1" target='_blank'>View My SVGs</a >
         </div>
       </div>
     </section>
     <!-- Featured Work -->
     <section class="section is-large">
+      <h2 class="work-title has-text-centered" id='work'>My Recent Work</h2>
       <div class="work-container">
-        <h1 class="work-title">My Recent Work</h1>
+        <div class="columns is-multiline">
+          <div class="column is-4"><a href="#"><img src="./imgs/formValidator.png" alt=""></a>
+            <div class="links">
+              <a href="https://osj007.github.io/login-form/" target='_blank'>View Site</a>
+              <a href="https://github.com/osj007/login-form"  target='_blank'>View Code</a>
+            </div>
+          </div>
+          <div class="column is-4"><a href="#"><img src="./imgs/weather.png" alt=""></a>
+            <div class="links">
+              <a href="https://osj007.github.io/weather-app/" target='_blank'>View Site</a>
+              <a href="https://github.com/osj007/weather-app"  target='_blank'>View Code</a>
+            </div>
+          </div>
+          <div class="column is-4"><a href="#"><img src="./imgs/reallybilly.png" alt=""></a>
+            <div class="links">
+              <a href="https://www.reallybilly.com/" target='_blank'>View Site</a>
+              <a href="https://github.com/osj007/Photography-Portfolio"  target='_blank'>View Code</a>
+            </div>
+          </div>
+        </div>
       </div>
-      
     </section>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <i class="fab fa-linkedin-in"></i>
+        <i class="fab fa-github"></i>
+        <i class="far fa-envelope"></i>
+      </div>
+      <div class="copyright">
+        <img
+              class="footer-image"
+              src="./imgs/svgs//Logo.svg"
+              alt="O for Oscar logo"
+            />
+        Made By OSJ
+      </div>
+    </footer>
 
     <script src="main.js"></script>
   </body>
