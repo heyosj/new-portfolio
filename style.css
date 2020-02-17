@@ -98,7 +98,7 @@ font-family: 'Montserrat', sans-serif; */
   font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
   text-align: center;
-  color: #f1526d;
+  /* color: #f1526d; */
 }
 
 .subtitle {
@@ -106,7 +106,16 @@ font-family: 'Montserrat', sans-serif; */
   text-align: center;
 }
 
-.link {
+.fas {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10%;
+  color: #f1526d;
+}
+
+link {
   color: #f1526d;
 }
 
@@ -126,7 +135,17 @@ font-family: 'Montserrat', sans-serif; */
   border-bottom-right-radius: 25%;
 }
 
-.section {
-  height: 80vh;
-  margin-top: 20%;
+.work-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
+
+.work-title {
+  font-family: "Poppin", sans-serif;
+  font-size: 2rem;
+  color: #f1526d;
+}
+
+/* Recent Work Gallery */
