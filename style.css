@@ -153,16 +153,6 @@ font-family: 'Montserrat', sans-serif; */
 }
 
 /* Recent Work Gallery */
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
-.cell {
-  width: calc(100% / 3);
-}
-
 .links {
   display: flex;
   justify-content: space-evenly;
@@ -209,6 +199,7 @@ font-family: 'Montserrat', sans-serif; */
   padding-top: 100px;
   margin-bottom: 0;
   padding-bottom: 0;
+  color: white;
 }
 
 .footer-image {
@@ -219,8 +210,27 @@ font-family: 'Montserrat', sans-serif; */
   margin-bottom: 2%;
 }
 
+.navbar-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}
+
 /* Mobile */
-@media (min-width: 480px) and (max-width: 959px) {
+@media (min-width: 400px) and (max-width: 720px) {
+  * {
+    width: auto;
+  }
+
+  .navbar {
+    width: auto;
+  }
+
+  #svg-desk {
+    width: auto;
+  }
+
   .container {
     flex-direction: column;
   }
@@ -234,12 +244,18 @@ font-family: 'Montserrat', sans-serif; */
     width: 200px;
   }
 
+  .container-two {
+    margin-top: -50%;
+    width: auto;
+  }
+
   .summary-skills {
     margin-top: -35%;
     height: 30vh;
   }
 
-  .summary-title {
+  .summary-title,
+  .work-title {
     font-size: 1.5rem;
   }
 
@@ -249,5 +265,53 @@ font-family: 'Montserrat', sans-serif; */
   }
 
   .card-section {
+    display: flex;
+    padding-top: 0;
+    margin: -45% auto 20%;
+    flex-direction: column;
+  }
+
+  .card-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .card-1 {
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 0%;
+  }
+
+  .card-3 {
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+  }
+
+  .work-title {
+    margin-bottom: 20%;
+  }
+
+  .work-container a {
+    margin-bottom: 10%;
+    width: auto;
+  }
+
+  .footer {
+    width: auto;
+  }
+
+  .footer-image {
+    height: 50px;
+    width: 50px;
+  }
+
+  .navbar-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
   }
 }
