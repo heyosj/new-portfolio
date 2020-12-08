@@ -1,6 +1,6 @@
 // Navbar toggle
 function navbarToggle() {
-	var menu = document.querySelector('.mylinks');
+	let menu = document.querySelector('.mylinks');
 	if (menu.style.display === 'block') {
 		menu.style.display = 'none';
 	} else {

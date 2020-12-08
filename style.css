@@ -24,8 +24,11 @@
 /* NAVBAR */
 nav {
 	overflow: hidden;
-	background-color: #333;
 	position: relative;
+}
+
+.collapsed {
+	display: none;
 }
 
 nav a i.fa-bars {
@@ -34,18 +37,26 @@ nav a i.fa-bars {
 	outline: none;
 }
 
-nav a i.far-bars:active {
+nav a.far-bars:active {
 	border: none;
 	outline: none;
 }
 
 nav div.mylinks {
 	display: none;
+	margin: auto 10%;
+	border: 1px solid slategray;
+	border-radius: 20px 0 20px 20px;
+}
+
+nav div.mylinks a span {
+	font-style: italic;
+	margin-left: 5px;
 }
 
 nav a {
 	color: black;
-	padding: 14px 16px;
+	padding: 10px 16px;
 	text-decoration: none;
 	font-size: 17px;
 	display: block;
@@ -191,6 +202,7 @@ section.github ul.githubRepos li {
 	list-style-type: none;
 	margin: 2%;
 	color: var(--dark-mode-color);
+	padding: 5px;
 }
 
 section.github ul.githubRepos li a {
@@ -253,4 +265,135 @@ footer div a {
 footer div a i.fa-file-code {
 	background-color: var(--complimentary-color);
 	color: var(--close-but-not-white);
+}
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 500px) {
+	div.top-container section {
+		margin-top: 2%;
+	}
+
+	div.desk-svg-container object.desk-svg-container__svg-of-desk {
+		height: 200px;
+		margin-top: 6%;
+		margin-bottom: 0%;
+	}
+
+	section.second-container h1.second-container__title {
+		margin-top: -5%;
+		margin-bottom: 2%;
+	}
+
+	section.second-container figure img {
+		height: 275px;
+	}
+
+	footer div a {
+		font-size: 1.2rem;
+	}
+}
+
+@media only screen and (min-width: 680px) and (max-width: 800px) {
+	div.desk-svg-container {
+		overflow: hidden;
+	}
+
+	div.desk-svg-container object.desk-svg-container__svg-of-desk {
+		height: 300px;
+		margin-bottom: -4.3%;
+	}
+}
+
+@media only screen and (min-width: 801px) and (max-width: 964px) {
+	div.desk-svg-container {
+		overflow: hidden;
+	}
+
+	div.desk-svg-container object.desk-svg-container__svg-of-desk {
+		height: 300px;
+		margin-bottom: -1.4%;
+	}
+
+	.icon {
+		visibility: hidden;
+	}
+
+	.active {
+		width: 50%;
+	}
+
+	.navbar {
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+
+	.mylinks-desktop {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+	}
+}
+
+@media only screen and (min-width: 965px) {
+	.icon {
+		visibility: hidden;
+	}
+
+	.active {
+		margin-left: 10%;
+	}
+
+	.navbar {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		max-width: 90%;
+	}
+
+	.mylinks-desktop {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+	}
+
+	.top-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+	}
+
+	div.top-container section object.top-container__svg-of-me {
+		height: 500px;
+	}
+
+	div.desk-svg-container {
+		width: 100%;
+		overflow: hidden;
+	}
+
+	div.desk-svg-container object.desk-svg-container__svg-of-desk {
+		height: 900px;
+		margin-bottom: -32%;
+	}
+
+	section.second-container {
+		height: 90vh;
+	}
+
+	section.second-container figure img {
+		height: 400px;
+	}
+
+	section.github {
+		max-width: 80%;
+		margin-left: 13%;
+	}
+
+	footer div a {
+		font-size: 2rem;
+	}
 }
