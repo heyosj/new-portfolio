@@ -1,317 +1,147 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat|Poppins&display=swap");
-/* font-family: 'Poppins', sans-serif;
-font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Poppins&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
+	/* background: var(--light-mode-color); */
+	background-color: var(--close-but-not-white);
+	box-sizing: border-box;
+	color: var(--primary-text-color);
+	font-family: var(--primary-font);
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
 }
 
-.navbar {
-  background: white;
-  margin: 2% 10%;
+/* VARIABLES */
+:root {
+	--primary-font: 'Montserrat', sans-serif;
+	--secondary-font: 'Poppins', sans-serif;
+	--light-mode-color: #fcf8ec;
+	--dark-mode-color: #121212;
+	--primary-text-color: #333333;
+	--close-but-not-white: #f6f5f1;
+	--complimentary-color: #f05454;
 }
 
-.logo:hover {
-  background: none !important;
-  color: #333 !important;
+/* NAVBAR */
+header nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 80%;
+	margin-top: 2%;
 }
 
-.name {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-size: 2rem;
+nav a {
+	margin-left: 10%;
 }
 
-.hire-me {
-  background: #f1526d !important;
-  color: white !important;
+nav div.navbar__hamburger-menu {
+	cursor: pointer;
 }
 
-.container {
-  display: flex;
-  /* flex-direction: column; */
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10%;
+nav div.navbar__hamburger-menu span {
+	position: absolute;
+	height: 4px;
+	width: 10%;
+	background: #f05454;
+	border-radius: 9px;
+	opacity: 1;
 }
 
-.title {
-  font-family: "Poppins", sans-serif;
+nav div.navbar__hamburger-menu span:nth-child(1) {
+	top: 8px;
 }
 
-.subtitle {
-  font-family: "Montserrat", sans-serif;
-  margin-top: 2% !important;
+nav div.navbar__hamburger-menu span:nth-child(2) {
+	top: 19px;
 }
 
-.container-two {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: auto;
-  height: 100vh;
+nav div.navbar__hamburger-menu span:nth-child(3) {
+	top: 30px;
 }
 
-.summary-skills {
-  height: 60vh;
-  width: 100%;
-  background: #f1526d;
-  margin-top: -6%;
+/* TOP CONTAINER */
+div.top-container {
+	height: 80vh;
 }
 
-.summary-section {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  color: white;
+div.top-container section {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 10%;
 }
 
-.summary-title {
-  margin: 5%;
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-size: 2.5rem;
+div.top-container section h1.top-container__intro {
+	font-family: var(--secondary-font);
+	font-size: 1.5rem;
+	margin: 10% auto 5%;
 }
 
-.summary-description {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.4rem;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-bottom: 40%;
+div.top-container section h4.top-container__title {
+	font-size: 1.1rem;
+	margin-bottom: 5%;
 }
 
-.card-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  margin: -4%;
-  padding-top: 1rem;
+div.top-container section h6.top-container__subtitle {
+	font-style: italic;
+	margin-bottom: 10%;
 }
 
-.title {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.5rem;
-  text-align: center;
-  /* color: #f1526d; */
+div.top-container section object.top-container__svg-of-me {
+	height: 300px;
 }
 
-.subtitle {
-  font-family: "Monserrat", sans-serif;
-  text-align: center;
+/* SVG CONTAINER OF DESK */
+div.desk-svg-container {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin-top: 1%;
 }
 
-.fas {
-  font-size: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 10%;
-  color: #f1526d;
+div.desk-svg-container object.second-container__svg-of-desk {
+	height: 155px;
 }
 
-.link {
-  color: #f1526d;
+/* FEATURED PROJECT SECTION */
+section.second-container {
+	align-items: center;
+	background-color: var(--complimentary-color);
+	clip-path: inset(0 0 0 0 round 0 30% 20% 60%);
+	display: flex;
+	height: 60vh;
+	flex-direction: column;
+	justify-content: center;
 }
 
-.card-content {
-  padding: 3rem;
-  margin-bottom: 25%;
-  line-height: 2rem;
+section.second-container h1.second-container__title {
+	background: none;
+	font-family: var(--secondary-font);
+	margin-bottom: 10%;
+	margin-top: -30%;
 }
 
-.card-1 {
-  border-top-left-radius: 25%;
-  border-bottom-left-radius: 25%;
+section.second-container img {
+	height: 250px;
+	border-radius: 10%;
+	border-collapse: separate;
+	z-index: 1;
 }
 
-.card-3 {
-  border-top-right-radius: 25%;
-  border-bottom-right-radius: 25%;
+section.second-container figcaption {
+	background-color: var(--complimentary-color);
 }
 
-.work-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  margin: auto 10%;
+section.second-container figcaption a {
+	background: none;
+	color: var(--primary-text-color);
+	font-size: 0.7rem;
+	text-decoration: none;
 }
 
-.work-title {
-  font-family: "Poppin", sans-serif;
-  font-weight: 900;
-  font-size: 2rem;
-  /* color: #f1526d; */
-  margin-bottom: 5%;
-}
-
-/* Recent Work Gallery */
-.links {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.links a {
-  color: #f1526d;
-}
-
-.footer {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-  background: #f1526d;
-}
-
-.fab,
-.far {
-  margin: auto 10%;
-  margin-top: 5%;
-  font-size: 2rem;
-  color: white;
-  border-radius: 50%;
-  border: 1px none solid;
-  padding: 10px;
-}
-
-.fab:hover,
-.far:hover {
-  border-radius: 50%;
-  background: white;
-  color: #f1526d;
-  padding: 10px;
-  font-size: 2rem;
-  cursor: pointer;
-}
-
-.copyright {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding-top: 100px;
-  margin-bottom: 0;
-  padding-bottom: 0;
-  color: white;
-}
-
-.footer-image {
-  height: 100px;
-  width: 100px;
-  background: white;
-  border-radius: 50%;
-  margin-bottom: 2%;
-}
-
-.navbar-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2%;
-}
-
-/* Mobile */
-@media (min-width: 400px) and (max-width: 720px) {
-  * {
-    width: auto;
-  }
-
-  .navbar {
-    width: auto;
-  }
-
-  #svg-desk {
-    width: auto;
-  }
-
-  .container {
-    flex-direction: column;
-  }
-
-  .name {
-    font-size: 1rem;
-  }
-
-  #svg-me {
-    height: 200px;
-    width: 200px;
-  }
-
-  .container-two {
-    margin-top: -50%;
-    width: auto;
-  }
-
-  .summary-skills {
-    margin-top: -35%;
-    height: 30vh;
-  }
-
-  .summary-title,
-  .work-title {
-    font-size: 1.5rem;
-  }
-
-  .summary-description {
-    font-size: 1rem;
-    margin: auto 10% 5%;
-  }
-
-  .card-section {
-    display: flex;
-    padding-top: 0;
-    margin: -45% auto 20%;
-    flex-direction: column;
-  }
-
-  .card-content {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .card-1 {
-    border-top-right-radius: 10%;
-    border-top-left-radius: 10%;
-    border-bottom-left-radius: 0%;
-  }
-
-  .card-3 {
-    border-top-right-radius: 0%;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-  }
-
-  .work-title {
-    margin-bottom: 20%;
-  }
-
-  .work-container a {
-    margin-bottom: 10%;
-    width: auto;
-  }
-
-  .footer {
-    width: auto;
-  }
-
-  .footer-image {
-    height: 50px;
-    width: 50px;
-  }
-
-  .navbar-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2%;
-  }
+section.second-container figcaption a:hover {
+	color: var(--close-but-not-white);
+	text-decoration: underline;
 }

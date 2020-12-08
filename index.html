@@ -1,195 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="shortcut icon" type="image/ico" href="./imgs/Logo.ico" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Oscar Sanchez Jr.</title>
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="shortcut icon" type="image/ico" href="./imgs/Logo.ico" />
+  <link rel="stylesheet" href="style.css" />
+  <title>HeyOSJ</title>
+</head>
+
+<body>
+
+  <header>
     <nav>
-      <div class="navbar">
-        <div class="navbar-brand">
-          <a href="#" class="navbar-item logo">
-            <img
-              class="logo-image"
-              src="./imgs/svgs//Logo.svg"
-              alt="O for Oscar logo"
-            />
-            <span class="name">OSJ</span>
-          </a>
-          <a
-            role="button"
-            class="navbar-burger burger"
-            aria-label="menu"
-            aria-expanded="false"
-            data-target="navbarBasicExample"
-          >
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
-        </div>
-        <div id="navbarBasicExample" class="navbar-menu">
-          <div class="navbar-end">
-            <div class="navbar-item">
-              <div class="buttons">
-                <a href="mailto:ojsanch@gmail.com?subject=Mail From Made By OSJ" class="button hire-me" target="_blank">
-                  <strong>Hire Me</strong>
-                </a>
-                <a href='#work' class="button is-light">
-                  Featured Work
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+      <!-- Signature Here -->
+      <a href="#">OSJ</a>
+
+      <div class="navbar__hamburger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
     </nav>
+  </header>
 
-    <div class="container">
-      <section class="section">
-        <h1 class="title">I build amazing experiences
-        </h1>
-        <h3 class="subtitle">Front End Developer from Chicago, IL.</h3>
-      </section>
-      
-      <!-- SVG -->
-      <object
-        id="svg-me"
-        data="./imgs/svgs/me.svg"
-        type="image/svg+xml"
-        height="500"
-        width="500"
-      >
-      </object>
-    </div>
-    <div class="container-two">
-      <object
-        id="svg-desk"
-        data="./imgs/svgs/deskSVG.svg"
-        type="image/svg+xml"
-        height="500"
-        width="800"
-      >
-      </object>
-      <div class="summary-skills">
-        <div class="summary-section">
-          <h3 class="summary-title">Hi, I'm Oscar. Nice to meet you.</h3>
-          <p class="summary-description">
-            I started my coding journey in 2017 once I realized I wanted to
-            build things. Since then I have been working with various
-            technologies to build out whatever my imagination can serve up.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!-- Card One -->
-    <section class="card-section">
-      <div class="card card-1">
-        <div class="card-content">
-          <i class="fas fa-palette"></i>
-          <p class="title">
-            Design
-          </p>
-          <p class="subtitle">
-            Tools I Use:
-            <ul>
-              <li>Figma</li>
-              <li>Affinity Designer</li>
-              <li>Affinity Photo</li>
-            </ul>
-          </p>
-          <a class='link' href="https://www.figma.com/file/mSsaNcqZ61NRpEsvn6ODQI/Portfolio?node-id=0%3A1" target="_blank">View My Design Process</a>
-        </div>
-      </div>
-      <!-- Card Two -->
-      <div class="card">
-        
-        <div class="card-content">
-          <i class="fas fa-code"></i>
-          <p class="title">
-            Development
-          </p>
-          <p class="subtitle">
-            Languages I Speak:
-            <ul>
-              <li>HTML, CSS</li>
-              <li>JavaScript</li>
-              <li>Python</li>
-            </ul>
-          </p>
-          <a class='link' href="https://www.github.com/osj007" target='_blank'>View My Projects</a>
-        </div>
-      </div>
-      <!-- Card Three -->
-      <div class="card card-3">
-        <div class="card-content">
-          <i class="fas fa-brain"></i>
-          <p class="title">
-            Interest
-          </p>
-          <p class="subtitle">
-            My Growing Skillset:
-            <ul>
-              <li>Web Security</li>
-              <li>SVGs</li>
-              <li>Photography</li>
-            </ul>
-          </p>
-          <a class="link" href="https://www.figma.com/file/7CLih7w99aoOdKgmtBLAVW/My-SVG?node-id=0%3A1" target='_blank'>View My SVGs</a >
-        </div>
-      </div>
-    </section>
-    <!-- Featured Work -->
-    <section class="section is-large">
-      <h2 class="work-title has-text-centered" id='work'>My Recent Work</h2>
-      <div class="work-container">
-        <div class="columns is-multiline">
-          <div class="column is-4"><a href="#"><img src="./imgs/formValidator.png" alt=""></a>
-            <div class="links">
-              <a href="https://osj007.github.io/login-form/" target='_blank'>View Site</a>
-              <a href="https://github.com/osj007/login-form"  target='_blank'>View Code</a>
-            </div>
-          </div>
-          <div class="column is-4"><a href="#"><img src="./imgs/weather.png" alt=""></a>
-            <div class="links">
-              <a href="https://osj007.github.io/weather-app/" target='_blank'>View Site</a>
-              <a href="https://github.com/osj007/weather-app"  target='_blank'>View Code</a>
-            </div>
-          </div>
-          <div class="column is-4"><a href="#"><img src="./imgs/reallybilly.png" alt=""></a>
-            <div class="links">
-              <a href="https://www.reallybilly.com/" target='_blank'>View Site</a>
-              <a href="https://github.com/osj007/Photography-Portfolio"  target='_blank'>View Code</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer class="footer">
-      <div class="content has-text-centered">
-        <i class="fab fa-linkedin-in"></i>
-        <i class="fab fa-github"></i>
-        <i class="far fa-envelope"></i>
-      </div>
-      <div class="copyright">
-        <img
-              class="footer-image"
-              src="./imgs/svgs//Logo.svg"
-              alt="O for Oscar logo"
-            />
-        Made By OSJ
-      </div>
-    </footer>
+  <div class="top-container">
+    <section>
+      <h1 class="top-container__intro">Hi there, my name is Oscar.</h1>
+      <h4 class="top-container__title">I build amazing experiences
+      </h4>
+      <h6 class="top-container__subtitle">Software Developer from Chicago, IL.</h6>
 
-    <script src="main.js"></script>
-  </body>
+      <object class='top-container__svg-of-me' data="./imgs/svgs/me.svg" type="image/svg+xml" height="500"
+        width="500"></object>
+    </section>
+  </div>
+
+  <div class="desk-svg-container">
+    <object class="second-container__svg-of-desk" data="./imgs/svgs/deskSVG.svg" type="image/svg+xml" height="500"
+      width="800">
+    </object>
+  </div>
+
+  <section class="second-container">
+    <h1 class="second-container__title">Featured Project</h1>
+    <figure>
+      <img src="./imgs/extremeVPN.png" alt="Screenshot of ExtremeVPN a ReactJS project">
+    </figure>
+    <figcaption>
+      <a href="https://www.extremevpn.netlify.com">Live Site</a>
+      |
+      <a href="https://www.github.com/heyosj/extremeVPN">View Code</a>
+    </figcaption>
+
+  </section>
+
+
+  <script src="main.js"></script>
+</body>
+
 </html>
