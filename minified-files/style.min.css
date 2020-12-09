@@ -328,7 +328,6 @@ footer div a i.fa-file-code {
 	}
 	section.github ul.githubRepos li a {
 		color: var(--primary-text-color);
-		padding: 30% auto;
 		height: 70vh;
 	}
 }
