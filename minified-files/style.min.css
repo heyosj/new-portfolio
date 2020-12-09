@@ -308,26 +308,26 @@ footer div a i.fa-file-code {
 }
 @media (prefers-color-scheme: dark) {
 	* {
-		color: var(--dark-mode-text);
-		background-color: var(--dark-mode-color);
+		color: var(--primary-text-color);
+		background-color: var(--light-mode-color);
 	}
 	.active {
-		color: var(--dark-mode-text);
+		color: var(--primary-text-color);
 	}
 	.mylinks-desktop a {
-		color: var(--dark-mode-text);
+		color: var(--primary-text-color);
 	}
 	.mylinks a {
-		color: var(--dark-mode-text);
+		color: var(--primary-text-color);
 	}
 	div.desk-svg-container object.desk-svg-container__svg-of-desk {
-		background-color: var(--dark-mode-text);
 		padding: 20% auto;
 	}
 	section.second-container figcaption a {
-		color: var(--dark-mode-text);
+		color: var(--primary-text-color);
 	}
 	section.github ul.githubRepos li a {
-		color: var(--dark-mode-text);
+		color: var(--primary-text-color);
+		padding: 30% auto;
 	}
 }
