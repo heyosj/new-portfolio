@@ -168,7 +168,7 @@ section.second-container figcaption a:hover {
 	text-decoration: underline;
 }
 section.github {
-	height: 60vh;
+	height: 80vh;
 	margin: 10% auto;
 }
 section.github h2.github_title {
@@ -327,9 +327,9 @@ footer div a i.fa-file-code {
 		color: var(--primary-text-color);
 	}
 
-	section.github ul.githubRepos {
+	/* section.github ul.githubRepos {
 		height: 70vh;
-	}
+	} */
 
 	section.github ul.githubRepos li a {
 		color: var(--primary-text-color);
