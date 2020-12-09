@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Poppins&display=swap');
-
 * {
-	/* background-color: var(--close-but-not-white); */
 	background-color: #fff5ea;
 	box-sizing: border-box;
 	color: var(--primary-text-color);
@@ -11,8 +9,6 @@
 	padding: 0;
 	scroll-behavior: smooth;
 }
-
-/* VARIABLES */
 :root {
 	--primary-font: 'Montserrat', sans-serif;
 	--secondary-font: 'Poppins', sans-serif;
@@ -22,13 +18,10 @@
 	--close-but-not-white: #f6f5f1;
 	--complimentary-color: #f1526d;
 }
-
-/* NAVBAR */
 nav {
 	overflow: hidden;
 	position: relative;
 }
-
 .mylinks-desktop {
 	display: flex;
 	align-items: center;
@@ -36,34 +29,28 @@ nav {
 	flex-direction: row;
 	visibility: hidden;
 }
-
 .collapsed {
 	display: none;
 }
-
 nav a i.fa-bars {
 	border: none;
 	color: var(--complimentary-color);
 	outline: none;
 }
-
 nav a.far-bars:active {
 	border: none;
 	outline: none;
 }
-
 nav div.mylinks {
 	display: none;
 	margin: auto 10%;
 	border: 1px solid slategray;
 	border-radius: 20px 0 20px 20px;
 }
-
 nav div.mylinks a span {
 	font-style: italic;
 	margin-left: 5px;
 }
-
 nav a {
 	color: black;
 	padding: 10px 16px;
@@ -71,40 +58,32 @@ nav a {
 	font-size: 17px;
 	display: block;
 }
-
 nav a.icon {
 	display: block;
 	position: absolute;
 	right: 0;
 	top: 0;
 }
-
 nav a:hover {
 	color: black;
 	text-decoration: underline;
 }
-
 .active {
 	color: black;
 }
-
 .active:hover {
 	text-decoration: none;
 	cursor: default;
 }
-
 div.mylinks a {
 	align-items: center;
 	display: flex;
 	font-size: 14px;
 	justify-content: center;
 }
-
-/* TOP CONTAINER */
 div.top-container {
 	height: 80vh;
 }
-
 div.top-container section {
 	align-items: center;
 	display: flex;
@@ -112,41 +91,32 @@ div.top-container section {
 	justify-content: center;
 	margin-top: 10%;
 }
-
 div.top-container section h1.top-container__intro {
 	font-family: var(--secondary-font);
 	font-size: 1.5rem;
 	margin: 10% auto 5%;
 }
-
 div.top-container section h2.top-container__title {
 	font-size: 1.1rem;
 	margin-bottom: 5%;
 }
-
 div.top-container section h3.top-container__subtitle {
 	font-size: 0.8rem;
 	font-style: italic;
 	margin-bottom: 10%;
 }
-
 div.top-container section object.top-container__svg-of-me {
 	height: 300px;
 }
-
-/* SVG CONTAINER OF DESK */
 div.desk-svg-container {
 	align-items: center;
 	display: flex;
 	justify-content: center;
 	margin-top: 1%;
 }
-
 div.desk-svg-container object.desk-svg-container__svg-of-desk {
 	height: 155px;
 }
-
-/* FEATURED PROJECT SECTION */
 section.second-container {
 	align-items: center;
 	background-color: var(--complimentary-color);
@@ -156,7 +126,6 @@ section.second-container {
 	flex-direction: column;
 	justify-content: center;
 }
-
 section.second-container div {
 	background-color: var(--complimentary-color);
 	padding: 2%;
@@ -164,29 +133,24 @@ section.second-container div {
 	justify-content: center;
 	align-items: center;
 }
-
 section.second-container h1.second-container__title {
 	background: none;
 	font-family: var(--secondary-font);
 	margin-bottom: 10%;
 }
-
 section.second-container figure {
 	border-radius: 20%;
 	box-shadow: 2px 2px 3px 1px #333333;
 }
-
 section.second-container figure img {
 	height: 250px;
 	border-collapse: separate;
 	z-index: 1;
 }
-
 section.second-container figcaption {
 	background-color: var(--complimentary-color);
 	margin-top: 6%;
 }
-
 section.second-container figcaption a {
 	background: none;
 	color: var(--primary-text-color);
@@ -196,38 +160,31 @@ section.second-container figcaption a {
 	text-decoration: none;
 	text-transform: uppercase;
 }
-
 section.second-container figcaption a:hover {
 	color: var(--close-but-not-white);
 	text-decoration: underline;
 }
-
-/* OTHE PROJECTS SECTION */
 section.github {
 	height: 40vh;
 	margin: 10% auto;
 }
-
 section.github h2.github_title {
 	font-family: var(--secondary-font);
 	margin: 10% auto 2%;
 	text-align: center;
 }
-
 section.github ul.githubRepos {
 	align-items: center;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 }
-
 section.github ul.githubRepos li {
 	list-style-type: none;
 	margin: 2%;
 	color: var(--dark-mode-color);
 	padding: 5px;
 }
-
 section.github ul.githubRepos li a {
 	color: var(--dark-mode-color);
 	font-family: var(--primary-font);
@@ -235,18 +192,14 @@ section.github ul.githubRepos li a {
 	font-size: 0.8rem;
 	text-decoration: none;
 }
-
 section.github ul.githubRepos li a:hover {
 	cursor: pointer;
 	text-decoration: underline;
 }
-
-/* FOOTER */
 footer {
 	background-color: var(--complimentary-color);
 	clip-path: inset(0 0 0 0 round 5% 70% 0 0);
 }
-
 footer div.footer__links {
 	align-items: center;
 	background-color: var(--complimentary-color);
@@ -254,123 +207,97 @@ footer div.footer__links {
 	justify-content: space-evenly;
 	margin: 5% 1% auto;
 }
-
 footer div.footer__links a i:active {
 	border: none;
 	outline: none;
 }
-
 footer div.footer__links a i:hover {
 	text-decoration: underline;
 }
-
 footer div.footer__links a {
 	background-color: var(--complimentary-color);
 }
-
 footer div.footer__links a i {
 	background-color: var(--complimentary-color);
 	color: var(--close-but-not-white);
 }
-
 footer div {
 	background-color: var(--complimentary-color);
 	height: 3vh;
 	margin-top: 1%;
 	text-align: center;
 }
-
 footer div a {
 	background-color: var(--complimentary-color);
 	text-decoration: none;
 }
-
 footer div a i.fa-file-code {
 	background-color: var(--complimentary-color);
 	color: var(--close-but-not-white);
 }
-
-/* MEDIA QUERIES */
 @media only screen and (min-width: 580px) {
 	div.top-container {
 		margin-bottom: 20%;
 	}
-
 	section.second-container h1.second-container__title {
 		margin-top: -5%;
 	}
 }
-
 @media only screen and (min-width: 749px) {
 	.navbar {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
 	}
-
 	.active {
 		width: 50%;
 	}
-
 	.mylinks-desktop {
 		visibility: visible;
 		width: 50%;
 	}
-
 	.icon {
 		visibility: hidden;
 	}
-
 	div.desk-svg-container object.desk-svg-container__svg-of-desk {
 		height: 250px;
 	}
-
 	div.top-container {
 		margin: 10%;
 	}
 }
-
 @media only screen and (min-width: 935px) {
 	.active {
 		margin-left: 15%;
 	}
-
 	div.top-container {
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		flex-direction: row;
-		margin: auto;
-		margin-bottom: 20%;
+		margin: auto auto 20%;
 	}
-
 	div.top-container section object.top-container__svg-of-me {
 		height: 500px;
 	}
-
 	section.second-container {
 		height: 70vh;
 	}
-
 	section.second-container h1.second-container__title {
 		font-size: 2rem;
 	}
-
 	section.second-container figure img {
 		height: 400px;
 	}
-
 	section.github {
 		height: 40vh;
 		margin-bottom: 20%;
 		max-width: 80%;
 		overflow: hidden;
 	}
-
 	section.github h2.github_title {
 		font-size: 2rem;
 	}
-
 	div.desk-svg-container__svg-of-me {
 		height: 500px;
 	}
