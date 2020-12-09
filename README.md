@@ -2,7 +2,7 @@
 
 I have been working on my CSS lately and figured it might be a good time to redo my portfolio to show off my new React project I've been working on. I liked the design of my last portfolio but felt it was a bit busy and responsiveness needed major improvement.
 
-# The Design
+## The Design
 
 ### Layout
 
@@ -35,7 +35,7 @@ Myself
 My Desk
 ![my desk as an svg](./imgs/markdown-imgs/desk.png)
 
-## Code
+## The Code
 
 ### Languages Used
 
