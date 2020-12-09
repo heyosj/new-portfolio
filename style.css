@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Poppins&display=swap');
 
 * {
-	background-color: var(--close-but-not-white);
+	/* background-color: var(--close-but-not-white); */
+	background-color: #fff5ea;
 	box-sizing: border-box;
 	color: var(--primary-text-color);
 	font-family: var(--primary-font);
@@ -25,6 +26,14 @@
 nav {
 	overflow: hidden;
 	position: relative;
+}
+
+.mylinks-desktop {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	visibility: hidden;
 }
 
 .collapsed {
@@ -104,12 +113,13 @@ div.top-container section h1.top-container__intro {
 	margin: 10% auto 5%;
 }
 
-div.top-container section h4.top-container__title {
+div.top-container section h2.top-container__title {
 	font-size: 1.1rem;
 	margin-bottom: 5%;
 }
 
-div.top-container section h6.top-container__subtitle {
+div.top-container section h3.top-container__subtitle {
+	font-size: 0.8rem;
 	font-style: italic;
 	margin-bottom: 10%;
 }
@@ -141,11 +151,18 @@ section.second-container {
 	justify-content: center;
 }
 
+section.second-container div {
+	background-color: var(--complimentary-color);
+	padding: 2%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 section.second-container h1.second-container__title {
 	background: none;
 	font-family: var(--secondary-font);
 	margin-bottom: 10%;
-	margin-top: -20%;
 }
 
 section.second-container figure {
@@ -182,7 +199,7 @@ section.second-container figcaption a:hover {
 /* OTHE PROJECTS SECTION */
 section.github {
 	height: 40vh;
-	margin-top: 10%;
+	margin: 10% auto;
 }
 
 section.github h2.github_title {
@@ -268,120 +285,69 @@ footer div a i.fa-file-code {
 }
 
 /* MEDIA QUERIES */
-@media only screen and (min-width: 500px) {
-	div.top-container section {
-		margin-top: 2%;
-	}
-
-	div.desk-svg-container object.desk-svg-container__svg-of-desk {
-		height: 200px;
-		margin-top: 6%;
-		margin-bottom: 0%;
+@media only screen and (min-width: 580px) {
+	div.top-container {
+		margin-bottom: 20%;
 	}
 
 	section.second-container h1.second-container__title {
 		margin-top: -5%;
-		margin-bottom: 2%;
-	}
-
-	section.second-container figure img {
-		height: 275px;
-	}
-
-	footer div a {
-		font-size: 1.2rem;
 	}
 }
 
-@media only screen and (min-width: 680px) and (max-width: 800px) {
-	div.desk-svg-container {
-		overflow: hidden;
-	}
-
-	div.desk-svg-container object.desk-svg-container__svg-of-desk {
-		height: 300px;
-		margin-bottom: -4.3%;
-	}
-}
-
-@media only screen and (min-width: 801px) and (max-width: 964px) {
-	div.desk-svg-container {
-		overflow: hidden;
-	}
-
-	div.desk-svg-container object.desk-svg-container__svg-of-desk {
-		height: 300px;
-		margin-bottom: -1.4%;
-	}
-
-	.icon {
-		visibility: hidden;
+@media only screen and (min-width: 749px) {
+	.navbar {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
 	}
 
 	.active {
 		width: 50%;
 	}
 
-	.navbar {
-		display: flex;
-		align-items: center;
-		justify-content: space-evenly;
-	}
-
 	.mylinks-desktop {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		flex-direction: row;
+		visibility: visible;
+		width: 50%;
 	}
-}
 
-@media only screen and (min-width: 965px) {
 	.icon {
 		visibility: hidden;
 	}
 
+	div.desk-svg-container object.desk-svg-container__svg-of-desk {
+		height: 250px;
+	}
+
+	div.top-container {
+		margin: 10%;
+	}
+}
+
+@media only screen and (min-width: 935px) {
 	.active {
-		margin-left: 10%;
+		margin-left: 15%;
 	}
 
-	.navbar {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		max-width: 90%;
-	}
-
-	.mylinks-desktop {
+	div.top-container {
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		flex-direction: row;
-	}
-
-	.top-container {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		flex-direction: row;
+		margin: auto;
+		margin-bottom: 20%;
 	}
 
 	div.top-container section object.top-container__svg-of-me {
 		height: 500px;
 	}
 
-	div.desk-svg-container {
-		width: 100%;
-		overflow: hidden;
-	}
-
-	div.desk-svg-container object.desk-svg-container__svg-of-desk {
-		height: 900px;
-		margin-bottom: -32%;
-	}
-
 	section.second-container {
-		height: 90vh;
+		height: 70vh;
+	}
+
+	section.second-container h1.second-container__title {
+		font-size: 2rem;
 	}
 
 	section.second-container figure img {
@@ -389,11 +355,17 @@ footer div a i.fa-file-code {
 	}
 
 	section.github {
+		height: 40vh;
+		margin-bottom: 20%;
 		max-width: 80%;
-		margin-left: 13%;
+		overflow: hidden;
 	}
 
-	footer div a {
+	section.github h2.github_title {
 		font-size: 2rem;
+	}
+
+	div.desk-svg-container__svg-of-me {
+		height: 500px;
 	}
 }

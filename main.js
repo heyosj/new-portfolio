@@ -18,7 +18,7 @@ async function getGithubRepos() {
 	for (let i = 1; i < data.length; i++) {
 		ulForGithubRepos.innerHTML += `
             <li>
-                <a href="${data[i].html_url}" target="_blank">${data[i].name}</a>
+                <a href="${data[i].html_url}" target="_blank" rel='noopener'>${data[i].name}</a>
             </li>
         `;
 	}

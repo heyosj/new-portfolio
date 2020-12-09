@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
+  <meta name="description" content="Oscar Sanchez Jr software developer portfolio">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="shortcut icon" type="image/ico" href="./imgs/Logo.ico" />
@@ -21,16 +22,17 @@
       <a href="#" class="active">OSJ</a>
 
       <div class="mylinks-desktop">
-        <a href="#">blog <span> { coming soon }</span></a>
-        <a href="#">resume</a>
+        <a aria-label="my blog" class='link' href="#">blog <span> { coming soon }</span></a>
+        <a aria-label="my resume" class='link' href="#">resume</a>
       </div>
 
       <div class="mylinks">
-        <a href="#">blog <span> { coming soon }</span></a>
-        <a href="#">resume</a>
+        <a aria-label="my blog" class='link' href="#">blog <span> { coming soon }</span></a>
+        <a aria-label="my resume" class='link' href="#">resume</a>
       </div>
 
-      <a href="javascript:void(0):" class="icon" onclick="navbarToggle()">
+      <a aria-label="hamburger menu for mobile" href="javascript:void(0):" class="icon" onclick="navbarToggle()">
+
         <i class="fa fa-bars"></i>
       </a>
 
@@ -40,35 +42,44 @@
   <div class="top-container">
     <section>
       <h1 class="top-container__intro">Hi there, my name is Oscar.</h1>
-      <h4 class="top-container__title">I build amazing experiences
-      </h4>
-      <h6 class="top-container__subtitle">Software Developer from Chicago, IL.</h6>
+      <h2 class="top-container__title">I build amazing experiences
+      </h2>
+      <h3 class="top-container__subtitle">Software Developer from Chicago, IL.</h3>
     </section>
     <section>
       <object class='top-container__svg-of-me' data="./imgs/svgs/me.svg" type="image/svg+xml" height="500"
-        width="500"></object>
+        width="500">svg drawing of myself</object>
     </section>
 
   </div>
 
-  <div class="desk-svg-container">
-    <object class="desk-svg-container__svg-of-desk" data="./imgs/svgs/deskSVG.svg" type="image/svg+xml" height="500"
-      width="800">
-    </object>
+  <div class="middle-container">
+    <div class="desk-svg-container">
+      <object class="desk-svg-container__svg-of-desk" data="./imgs/svgs/deskSVG.svg" type="image/svg+xml" height="0"
+        width="900">svg drawing of my desk</object>
+      </object>
+    </div>
+
+    <section class="second-container">
+      <div>
+        <h1 class="second-container__title">Featured Project</h1>
+      </div>
+      <div>
+        <figure>
+          <img src="./imgs/extreme.png" alt="Screenshot of ExtremeVPN a ReactJS project">
+        </figure>
+      </div>
+      <div>
+        <figcaption>
+          <a aria-label="live preview of my project extreme vpn" href="https://www.extremevpn.netlify.com"
+            target="_blank" rel="noopener">Live Site</a>
+          |
+          <a aria-label="code for extreme vpn on github" href="https://www.github.com/heyosj/extremeVPN" target="_blank"
+            rel="noopener">View Code</a>
+        </figcaption>
+      </div>
+    </section>
   </div>
-
-  <section class="second-container">
-    <h1 class="second-container__title">Featured Project</h1>
-    <figure>
-      <img src="./imgs/extreme.png" alt="Screenshot of ExtremeVPN a ReactJS project">
-    </figure>
-    <figcaption>
-      <a href="https://www.extremevpn.netlify.com" target="_blank">Live Site</a>
-      |
-      <a href="https://www.github.com/heyosj/extremeVPN" target="_blank">View Code</a>
-    </figcaption>
-
-  </section>
 
   <section class="github">
     <h2 class='github_title'>My Other Projects</h2>
@@ -77,10 +88,14 @@
 
   <footer>
     <div class="footer__links">
-      <a href="https://www.linkedin.com/in/osanchezjr" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-      <a href="https://www.github.com/heyosj" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="mailto:ojsanch@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
-      <a href="https://github.com/heyosj" target="_blank"><i class="fas fa-file-code"></i></a>
+      <a aria-label="my linkedin" href="https://www.linkedin.com/in/osanchezjr" target="_blank" rel="noopener"><i
+          class="fab fa-linkedin-in"></i></a>
+      <a rel='noopener' aria-label="my github" href="https://www.github.com/heyosj" target="_blank"><i
+          class="fab fa-github"></i></a>
+      <a aria-label="my email" href="mailto:ojsanch@gmail.com" target="_blank"><i class="fas fa-envelope"
+          rel='noopener'></i></a>
+      <a aria-label="my code for this site" href="https://github.com/heyosj" target="_blank" rel="noopener"><i
+          class="fas fa-file-code"></i></a>
     </div>
   </footer>
 
