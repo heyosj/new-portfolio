@@ -6,7 +6,7 @@ I have been working on my CSS lately and figured it might be a good time to redo
 
 ### Layout
 
-I went for a mobile first approach, which admitedly was new for me. After trying it out, I understand the value in it. I will continue this practice.
+I went for a mobile first approach, which admittedly was new for me. After trying it out, I understand the value in it. I will continue this practice.
 
 ![the figma layout for the design of my website](./imgs/markdown-imgs/layout.png)
 
@@ -50,18 +50,18 @@ My Desk
 
 ### CSS
 
-I wanted to work on specificity, turned out to be a lot more writing than intened but did nice readable look.
+I wanted to work on specificity, turned out to be a lot more writing than intended but did nice readable look.
 
 I also went with variables as can be seen here.
 ![css variables declared in root](./imgs/markdown-imgs/cssvariables.png)
 
 ### JS
 
-The bulk of the JavaScript is being used here to pull my GitHub repos to searve in the additional projects area. The thought behind this was that as I create more repos the portfolio would update itself.
+The bulk of the JavaScript is being used here to pull my GitHub repos to serve in the additional projects area. The thought behind this was that as I create more repos the portfolio would update itself.
 ![function written to access github repositories](./imgs/markdown-imgs/github.png)
 
 ### Performance
 
-I ran several lighthouse audits to see which areas could use improvements. Here is when I realized the importance in Accessibilty (which the red in my svgs don't help much so expect an improvement to come for that) as well as minifying my CSS code.
+I ran several lighthouse audits to see which areas could use improvements. Here is when I realized the importance in Accessibility (which the red in my svgs don't help much so expect an improvement to come for that) as well as minifying my CSS code.
 
 ##### Thanks for taking the time to read this!
